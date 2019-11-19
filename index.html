@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cashback Pure Javascript</title>
+    <link rel="stylesheet" href="../assets/css/stylle.css">
+</head>
+<body>
+    <div class="cardCashback">
+        <div class="titleCashback">
+            🌈 Cashback 🙋‍♂️
+        </div>
+
+        <div class="dataFlex">
+            <div class="leftCard">
+                <div class="dataCashback">
+                    <div class="cardDetailCashback">
+                        <div class="titleInputName">
+                            Harga normal
+                        </div>
+                        <input type="text" id="normalPrice" value="515000">
+                    </div>
+
+                    <div class="cardDetailCashback">
+                        <div class="titleInputName">
+                            Jumlah persen
+                        </div>
+                        <input type="text" id="discounts" value="20">
+                    </div>
+
+                    <div class="cardDetailCashback">
+                        <div class="titleInputName">
+                            Maksimal Cashback
+                        </div>
+                        <input type="text" id="maxCashback" value="200000">
+                    </div>
+                </div>
+
+                <div onclick="x()" class="btnPrimary">
+                    HITUNG
+                </div>
+            </div>
+
+            <div class="rightCard">
+                <div id="cardHidden" class="dataCashback">
+                    <div class="getCashback">
+                        <h3>CASHBACK TERBESAR</h3>
+                        <div id="cheap"></div>
+                    </div>
+                    
+                    <div class="dataFlex">
+                        <div class="leftCard">
+                            <div class="getCashbackBottom">
+                                <h3>HARGA SEBELUM</h3>
+                                <div id="beforePrice"></div>
+                            </div>
+                        </div>
+                        <div class="rightCard">
+                            <div class="getCashbackBottom">
+                                <h3>TOTAL BAYAR</h3>
+                                <div id="pay"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+        </div>
+    <div class="footer">
+        @firmnardians
+    </div>
+    </div>
+
+
+    <script src="../assets/javascript/app.js"></script>
+</body>
+</html>

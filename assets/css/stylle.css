@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    background: #2a407e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardCashback{
+    margin: 5% 20%;
+    background: #101528;
+    padding: 55px 25px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+.titleCashback{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 70px;
+}
+.titleInputName{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.dataFlex{
+    display: flex;
+}
+.leftCard{
+    width: 50%;
+}
+.rightCard{
+    width: 50%;
+}
+.btnPrimary{
+    padding: 12px 18px;
+    color: #2a407e;
+    background:  #ffffff;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.cardDetailCashback{
+    margin-bottom: 20px;
+}
+.cardDetailCashback input{
+    font-size: 22px;
+    background: #101528;
+    border: 2px solid #2a407e;
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: #ffffff;
+}
+#cardHidden{
+    display: none;
+    margin-top: 35px;
+}
+.getCashback{
+    border: 2px solid #2a407e;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+.getCashbackBottom{
+    border: 2px solid #2a407e;
+    text-align: center;
+    padding: 10px;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+#cheap{
+    font-size: 38px;
+}
+#pay{
+    font-size: 20px;
+}
+#beforePrice{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.footer{
+    text-align: center;
+    margin-top: 30px;
+    color: pink;
+}
