@@ -1,5 +1,6 @@
-# cashback-pure-javascript
+# Makantuh Cashback
 Cashback App with Javascript
+Demo : https://makantuhcashback.netlify.app/
 
 ## Feature
 Without Database
